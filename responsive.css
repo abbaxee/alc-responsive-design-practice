@@ -18,7 +18,7 @@
   }
   .header__title {
     margin-left: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     vertical-align: bottom; 
   }
   .nav {
@@ -30,7 +30,7 @@
     -webkit-transform: translate(-300px, 0);
     transform: translate(-300px, 0);
     /* Optionally, we animate the drawer. */
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
   }
   .nav.open {
     -webkit-transform: translate(0, 0);
